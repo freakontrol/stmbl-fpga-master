@@ -1787,6 +1787,12 @@
 		(uuid "03eb3db1-0760-438f-9dd1-6f32b90f1cf5")
 	)
 	(junction
+		(at 256.54 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09ce3118-7249-483d-9308-332879cd2f33")
+	)
+	(junction
 		(at 231.14 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2183,6 +2189,16 @@
 			(type default)
 		)
 		(uuid "22538cd3-ca85-415b-b9f6-70c32804db66")
+	)
+	(wire
+		(pts
+			(xy 269.24 30.48) (xy 256.54 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2335e883-deb5-4505-b4ad-62320326a660")
 	)
 	(wire
 		(pts
@@ -2866,6 +2882,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 38.1) (xy 269.24 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc32bc72-0b3b-467b-bc8e-73b4a7e5e8f0")
+	)
+	(wire
+		(pts
 			(xy 25.4 137.16) (xy 38.1 137.16)
 		)
 		(stroke
@@ -2953,6 +2979,16 @@
 			(type default)
 		)
 		(uuid "d1dc5a58-03bd-4d9a-b874-0ac69ed4a27d")
+	)
+	(wire
+		(pts
+			(xy 269.24 33.02) (xy 269.24 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3553a85-99e4-4983-bf9a-bac5a48ea813")
 	)
 	(wire
 		(pts
@@ -3063,6 +3099,16 @@
 			(type default)
 		)
 		(uuid "e8cc55de-929c-42a4-94f2-727dda174144")
+	)
+	(wire
+		(pts
+			(xy 269.24 40.64) (xy 256.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e962caa1-eab9-4862-88cf-0847d27f6bd9")
 	)
 	(wire
 		(pts
@@ -3303,6 +3349,76 @@
 			(project ""
 				(path "/1f4f22c5-e7b1-4469-a82b-89470ab4678f/61e8b550-c943-48a6-983e-7756e0cf2266"
 					(reference "U201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 269.24 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "090b2880-f3ae-4c5e-9a95-6078ae00579e")
+		(property "Reference" "R212"
+			(at 271.78 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 271.78 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 269.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 269.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c4bea48-e815-4f34-bcfe-e944017905d0")
+		)
+		(pin "1"
+			(uuid "0c30dd71-1ddd-4fed-a1f4-78f05b1c5166")
+		)
+		(instances
+			(project "stmbl-fpga-master"
+				(path "/1f4f22c5-e7b1-4469-a82b-89470ab4678f/61e8b550-c943-48a6-983e-7756e0cf2266"
+					(reference "R212")
 					(unit 1)
 				)
 			)

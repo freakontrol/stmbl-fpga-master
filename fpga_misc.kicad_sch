@@ -6630,7 +6630,7 @@
 				)
 			)
 		)
-		(property "Value" "ASDMB-xxxMHz"
+		(property "Value" "ASDMB-50MHz"
 			(at 257.81 29.21 0)
 			(effects
 				(font
