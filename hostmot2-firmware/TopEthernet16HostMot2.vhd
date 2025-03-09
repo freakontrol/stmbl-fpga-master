@@ -76,7 +76,7 @@ use work.IDROMConst.all;
 
 -------------------- option selection area ----------------------------
 
-use work.@Card@.all;
+use work.stmblFpgaMasterETH_x9card.all;
 
 -------------------- select one card type------------------------------
 
@@ -95,7 +95,7 @@ use work.@Card@.all;
 --use work.i98_x9card.all; 				-- needs 7i98.ucf and SP6 x9 144 pin
 -----------------------------------------------------------------------
 
-use work.@Pin@.all;
+--use work.@Pin@.all;
 
 -------------------- select (or add) one pinout -----------------------
 --use work.PIN_FALLBACK_34.all;			-- IO only configuration for fast compiles whilst debugging PCI and fallback config
@@ -353,6 +353,12 @@ use work.@Pin@.all;
 --use work.PIN_RLUKEN_48.all;
 --use work.PIN_THYDE_48.all;
 --use work.PIN_SVSI8_48.all;
+
+-- 48 pin pinouts for stmbl-fpga-master
+--use work.PIN_JUSTIO_48.all;
+--use work.PIN_stmblFpgaMaster_SSD12_48.all;
+use work.PIN_stmblFpgaMaster_SSD13_48.all;
+--use work.PIN_stmblFpgaMaster_SSD14_48.all;
 
 ----------------------------------------------------------
 	

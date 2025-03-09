@@ -79,7 +79,7 @@ use work.FixICap.all;
 
 
 -------------------- select one card type------------------------------
-use work.@Card@.all;
+use work.stmblFpgaMasterSPI_x9card.all;
 
 --use work.i90_x9card.all;      -- needs 7i90spi.ucf and SP6 x9 144 pin
 --use work.c80_x9card.all;        -- needs 7c80spi.ucf and SP6 x9 144 pin
@@ -143,6 +143,12 @@ use work.@Card@.all;
 --use work.PIN_7I76x2_7I89D_57.all;
 --use work.PIN_7I77x2D_57.all;
 --use work.PIN_7I77x1_7I76x1D_57.all;
+
+-- 48 pin pinouts for stmbl-fpga-master
+--use work.PIN_JUSTIO_48.all;
+--use work.PIN_stmblFpgaMaster_SSD12_48.all;
+use work.PIN_stmblFpgaMaster_SSD13_48.all;
+--use work.PIN_stmblFpgaMaster_SSD14_48.all;
 
 ----------------------------------------------------------------------
 	

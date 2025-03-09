@@ -128,6 +128,9 @@ package IDROMConst is
 	constant BoardName7IA0 : std_logic_vector(31 downto 0) := x"30414937";		-- 7IA0
 	constant BoardName7C80 : std_logic_vector(31 downto 0) := x"30384337";		-- 7C80
 	constant BoardName7C81 : std_logic_vector(31 downto 0) := x"31384337";		-- 7C81
+	constant BoardNameStmbl : std_logic_vector(31 downto 0) := x"626D7473";		-- stmb
+	constant BoardNameStmblETH : std_logic_vector(31 downto 0) := x"4854456C";	-- lETH
+	constant BoardNameStmblSPI : std_logic_vector(31 downto 0) := x"4950536C";	-- lSPI
 	
 	constant IDROMOffset : std_logic_vector(31 downto 0) := x"0000"&IDROMAddr&x"00"; -- note need to change if pitch changed
 	constant IDROMWEnAddr : std_logic_vector(7 downto 0) := x"08";
@@ -488,6 +491,7 @@ package IDROMConst is
 	constant ClockLowA0: integer :=  100000000;		-- 7IA0 low speed clock
 	constant ClockLowC80: integer :=  100000000;		-- 7C80 low speed clock
 	constant ClockLowC81: integer :=  100000000;		-- 7C81 low speed clock
+	constant ClockLowStmbl: integer  := 100000000;  -- stmblFpgaMaster low speed clock
 
 	constant ClockMed20: integer    := 50000000;		-- 5I20/4I65 medium speed clock
 	constant ClockMed21: integer    := 72000000;		-- 5I21 medium speed clock
@@ -517,6 +521,7 @@ package IDROMConst is
 	constant ClockMedA0: integer    := 100000000;	-- 7IA0 medium speed clock
 	constant ClockMedC80: integer    :=  100000000;	-- 7C80 medium speed clock
 	constant ClockMedC81: integer    :=  100000000;	-- 7C81 medium speed clock
+	constant ClockMedStmbl: integer  :=  100000000; -- stmblFpgaMaster medium speed clock
 	
 	constant ClockHigh20: integer    := 100000000;	-- 5I20/4I65 high speed clock
 	constant ClockHigh21: integer    := 96000000;	-- 5I21 high speed clock
@@ -547,6 +552,7 @@ package IDROMConst is
 	constant ClockHighA0: integer    := 200000000;	-- 7IA0 high speed clock
 	constant ClockHighC80: integer  :=  200000000;	-- 7C80 high speed clock
 	constant ClockHighC81: integer  :=  200000000;	-- 7C81 high speed clock
+	constant ClockHighStmbl: integer := 200000000;  -- stmblFpgaMaster high speed clock
 	
 	constant ClockLowTag: std_logic_vector(7 downto 0) := x"01";
 
