@@ -28,7 +28,7 @@ The board also supplies power to the Raspberry Pi.
 
 It is also possible to use the board without a Raspberry Pi and connect a host via ethernet.
 
-![STMBL Anatomy](/images/iso1-dark.png)
+![STMBL FPGA Master Anatomy](/stmbl-fpga-master/images/iso1-dark.png)
 
 {{% hint danger %}}
  In Hardware v0.9, the Pinout of SSerial 0-5 and 12-13 is reversed (1-8, 2-7, ...), use a [Rollover cable](https://en.wikipedia.org/wiki/Rollover_cable).
@@ -42,4 +42,4 @@ For standalone usage the board draws about 2-3W.
  A high power consumption is not tested yet, the DC-DC converters might need additional cooling.
 {{% /hint %}}
 
-![STMBL Connectors](/images/iso2-dark.png)
+![STMBL FPGA Master Connectors](/stmbl-fpga-master/images/iso2-dark.png)
