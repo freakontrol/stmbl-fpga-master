@@ -371,7 +371,7 @@
 		(remove_unused_layers no)
 		(uuid "76e6859f-17c0-4c6b-a142-76ef9e3e19fe")
 	)
-	(model "${KIPRJMOD}/3dmodels/MJ5988-B022-HPRN1-KörperPad.step"
+	(model "${KIPRJMOD}/3dmodels/MJ5988-B022-HPRN1.step"
 		(offset
 			(xyz 0 10.46 0)
 		)

@@ -243,7 +243,7 @@
 		(remove_unused_layers no)
 		(uuid "a63d321a-33bd-4d36-af65-1222866d149d")
 	)
-	(model "${KIPRJMOD}/3dmodels/HC-RJ45-5622-2-6-KörperPad.step"
+	(model "${KIPRJMOD}/3dmodels/HC-RJ45-5622-2-6.step"
 		(offset
 			(xyz 0 7.65 0)
 		)
