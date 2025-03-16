@@ -1,0 +1,3 @@
+[submodule "docs/doc/themes/hugo-book"]
+	path = docs/doc/themes/hugo-book
+	url = https://github.com/freakontrol/hugo-book.git
