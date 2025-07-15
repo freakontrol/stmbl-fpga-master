@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "stmbl-fpga-master")(type "KiCad")(uri "${KIPRJMOD}/stmbl-fpga-master.pretty")(options "")(descr ""))
-)
